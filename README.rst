@@ -18,7 +18,7 @@ Using virtual environments
 ----------
 If you run Tempest inside a virtualenv you have to ensure that the Python package that contains the plugin is installed in the venv too.
 
-E.g: Installing the plugin in a Tempest(from Rally) venv:
+E.g: Installing the plugin in a Tempest (from Rally) venv:
 
 .. code-block:: bash
 
@@ -54,6 +54,6 @@ How to run the tests
     
     testr run --subunit smoke | subunit-2to1 | ./tools/colorizer.py
     
-    .. code-block:: bash
+   .. code-block:: bash
 
     rally verify start --set smoke
