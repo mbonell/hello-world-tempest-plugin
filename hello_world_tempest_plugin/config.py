@@ -8,7 +8,8 @@ service_available_group = cfg.OptGroup(
 
 ServiceAvailableGroup = [
     cfg.BoolOpt("hello_world_tempest_plugin", default=True,
-                help="Whether or not Hello World Plugin is expected to be available")
+                help="Whether or not Hello World Plugin
+                is expected to be available")
 ]
 
 hello_world_group = cfg.OptGroup(
