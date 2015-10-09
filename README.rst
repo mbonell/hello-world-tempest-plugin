@@ -44,7 +44,7 @@ How to run the tests
    This command will show you the complete list of the test cases inside the plugin.
 
 
-2. You can run the test cases by name or running the set name that they use as decorator using testr(Tempest) or Rally:
+2. You can run the test cases by name or running the set name that they use as decorator using testr (Tempest) or Rally:
 
    .. code-block:: bash  
     
