@@ -38,7 +38,7 @@ How to run the tests
 
    .. code-block:: bash 
 
-    testr list-tests | grep hello_world_tempest_plugin
+    $ testr list-tests | grep hello_world_tempest_plugin
     
 
    This command will show you the complete list of the test cases inside the plugin.
@@ -48,12 +48,12 @@ How to run the tests
 
    .. code-block:: bash  
     
-    testr run hello_world_tempest_plugin.tests.api.test_hello_world.TestHelloWorld.test_hello_world
+    $ testr run hello_world_tempest_plugin.tests.api.test_hello_world.TestHelloWorld.test_hello_world
 
    .. code-block:: bash  
     
-    testr run --subunit smoke | subunit-2to1 | ./tools/colorizer.py
+    $ testr run --subunit smoke | subunit-2to1 | ./tools/colorizer.py
     
    .. code-block:: bash
 
-    rally verify start --set smoke
+    $ rally verify start --set smoke
