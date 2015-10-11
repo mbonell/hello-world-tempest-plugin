@@ -5,7 +5,7 @@ Basic Tempest plugin structure that runs a Hello World test case.
 ============
 Installation
 ============
-When Tempest runs, it will automatically discover the installed plugins. So we just need to install the Python packages which contain the plugin.
+When Tempest runs, it will automatically discover the installed plugins. So we just need to install the Python packages that contains the plugin.
 
 Clone the repository in your machine and install the package from the src tree:
 
@@ -16,7 +16,7 @@ Clone the repository in your machine and install the package from the src tree:
     
 Using virtual environments
 ----------
-If you run Tempest inside a virtualenv you have to ensure that the Python package that contains the plugin is installed in the venv too.
+If you run Tempest inside a virtualenv you have to ensure that the Python package containing the plugin is installed in the venv too.
 
 E.g: Installing the plugin in a Tempest (from Rally) venv:
 
@@ -41,10 +41,10 @@ How to run the tests
     $ testr list-tests | grep hello_world_tempest_plugin
     
 
-   This command will show you the complete list of the test cases inside the plugin.
+   This command will show your complete list of test cases inside the plugin.
 
 
-2. You can run the test cases by name or running the set name that they use as decorator using testr (Tempest) or Rally:
+2. You can run the test cases by name or running the set names that they used as decorator through testr (Tempest) or Rally:
 
    .. code-block:: bash  
     
